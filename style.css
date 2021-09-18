@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    font-family: 'Dancing Script', cursive;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  background-color: antiquewhite;  
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-self: center;   
+ height: 100%;
+}
+
+svg {
+    background-color: rgb(225, 229, 247);
+    box-shadow: 0px 3px 15px rgb(red, green, blue);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bar {
+    background-color: rosybrown;
+    border-color: salmon;
+    fill: salmon;
+}
+
+.dot:hover {
+    fill: rgb(red, green, blue);
+}
+
+g {
+    color: rgb(red, green, blue);
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+    color: rgb(56, 58, 74);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend {
+    margin-top: 5px;
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+}
+
+#title {
+    font-size: 28px;
+    fill: rgb(221, 221, 221);
+    text-transform: uppercase;
+}
+
